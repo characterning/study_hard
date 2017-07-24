@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.teachercontent {
+  width: 100%;
+  padding: 2rem; }
+  .teachercontent > span {
+    font-size: 1.4rem;
+    display: block;
+    width: 100%; }
+    .teachercontent > span:nth-of-type(1) {
+      color: #000000;
+      font-weight: bold; }
+  .teachercontent > a {
+    text-decoration: none;
+    color: #7ACA18; }
+
+/*# sourceMappingURL=teacher.css.map */

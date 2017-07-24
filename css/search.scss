@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+#searchresult{
+    width: 100%;
+    padding: 1rem;
+    &>.fenlei{
+        border: 1px solid #DDDDDD;
+        padding: .5rem;
+        position: relative;
+        margin: .5rem 0;
+        .glyphicon-chevron-down{
+            position: absolute;
+            display: inline-block;
+            top:0;
+            right: 0;
+            background: #DDDDDD;
+            padding: .8rem;
+        }
+    }
+    &>.dengji{
+             border: 1px solid #DDDDDD;
+        padding: .5rem;
+        position: relative;
+        margin: .5rem 0;
+        .glyphicon-chevron-down{
+            position: absolute;
+            display: inline-block;
+            top:0;
+            right: 0;
+            background: #DDDDDD;
+            padding: .8rem;
+        }
+    }
+    &>.fenleicontent{
+        padding: .5rem;
+        display: none;
+        span{
+            display: inline-block;
+            width: 31%;
+            border: 1px solid #DDDDDD;
+            padding: .3rem 0;
+            margin-bottom: .5rem;
+        }
+    }
+        &>.dengjicontent{
+        padding: .5rem;
+        display: none;
+        span{
+            text-align: center;
+            display: inline-block;
+            width: 31%;
+            border: 1px solid #DDDDDD;
+            padding: .3rem 0;
+            margin-bottom: .5rem;
+        }
+    }
+}
+.jieguo{
+    width: 100%;
+    color: #9E9E9E;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+    .returnhome{
+    text-decoration: none;
+    display: block;
+    position: fixed;
+    right: 3%;
+    bottom:20%;
+    background: darkred;
+    color: white;
+    width: 4rem;
+    height: 3.8rem;
+    font-size: 12px;
+    line-height: 3.8rem;
+    border-radius:5px ;
+    text-align: center;
+}
+

@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.planebander {
+  width: 100%; }
+
+.num {
+  width: 100%;
+  padding: .5rem 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.6rem; }
+  .num > span {
+    color: #70A400;
+    font-size: 1.6rem;
+    font-weight: bold; }
+
+#plane {
+  width: 100%;
+  padding: 1rem; }
+  #plane > .planefenlei {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    margin: .5rem 0; }
+    #plane > .planefenlei > label {
+      display: inline-block;
+      height: 100%;
+      padding: .5rem; }
+    #plane > .planefenlei .glyphicon-chevron-down {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      right: 0;
+      background: #DDDDDD;
+      padding: .8rem; }
+  #plane > .planedengji {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    margin: .5rem 0; }
+    #plane > .planedengji > label {
+      display: inline-block;
+      height: 100%;
+      padding: .5rem; }
+    #plane > .planedengji .glyphicon-chevron-down {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      right: 0;
+      background: #DDDDDD;
+      padding: .8rem; }
+  #plane > .planefenleicontent {
+    padding: .5rem;
+    display: none; }
+    #plane > .planefenleicontent span {
+      display: inline-block;
+      width: 31%;
+      border: 1px solid #DDDDDD;
+      padding: .3rem 0;
+      margin-bottom: .5rem;
+      text-align: center; }
+  #plane > .planedengjicontent {
+    padding: .5rem;
+    display: none; }
+    #plane > .planedengjicontent span {
+      text-align: center;
+      display: inline-block;
+      width: 31%;
+      border: 1px solid #DDDDDD;
+      padding: .3rem 0;
+      margin-bottom: .5rem;
+      text-align: center; }
+
+.planecontent {
+  width: 100%;
+  background: #EEEEEE;
+  padding: 1rem; }
+  .planecontent .planeweekcontent {
+    width: 100%;
+    padding: .5rem;
+    margin: 1rem 0; }
+    .planecontent .planeweekcontent img {
+      width: 100%; }
+    .planecontent .planeweekcontent > p {
+      color: #333333;
+      font-size: 1.6rem; }
+    .planecontent .planeweekcontent > ul {
+      width: 100%;
+      padding: .5rem 0; }
+      .planecontent .planeweekcontent > ul .planeweekleft {
+        font-size: 1.4rem;
+        float: left;
+        color: #333333; }
+      .planecontent .planeweekcontent > ul .planeweekright {
+        font-size: 1.4rem;
+        float: right;
+        color: #333333; }
+
+.planepersontext {
+  width: 100%; }
+  .planepersontext .planepersontitle {
+    width: 100%;
+    height: 3rem;
+    color: #666666;
+    font-size: 16px;
+    padding: .5rem;
+    line-height: 2.5rem; }
+    .planepersontext .planepersontitle > span {
+      display: inline-block;
+      width: 30%;
+      height: 1px;
+      background: #DDDDDD;
+      margin-bottom: .5rem;
+      margin: 0 1rem; }
+    .planepersontext .planepersontitle a {
+      display: inline-block;
+      padding: .2rem 1.2rem;
+      background: #FFFFFF;
+      color: #7ACA18;
+      font-weight: bold; }
+  .planepersontext .planepersoncontent {
+    float: left;
+    background: #FFFFFF;
+    width: 45%;
+    padding: .5rem;
+    margin: 1rem 0;
+    margin: 1rem .5rem; }
+    .planepersontext .planepersoncontent > img {
+      width: 100%; }
+    .planepersontext .planepersoncontent > p {
+      color: #333333;
+      font-size: 1.3rem; }
+      .planepersontext .planepersoncontent > p > span {
+        color: #7ACA18;
+        font-weight: bold; }
+
+.planeicontext {
+  width: 100%; }
+  .planeicontext .planeicontitle {
+    width: 100%;
+    color: #666666;
+    font-size: 16px;
+    padding: .5rem;
+    line-height: 2.5rem; }
+    .planeicontext .planeicontitle > span {
+      display: inline-block;
+      width: 30%;
+      height: 1px;
+      background: #DDDDDD;
+      margin-bottom: .5rem;
+      margin-left: 1rem; }
+  .planeicontext > ul {
+    width: 100%;
+    display: flex;
+    padding: .5rem; }
+    .planeicontext > ul li {
+      -webkit-flex-grow: 1;
+      text-align: center;
+      padding: .8rem; }
+      .planeicontext > ul li img {
+        width: 5rem;
+        height: 5rem; }
+
+/*# sourceMappingURL=plane.css.map */

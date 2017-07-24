@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.enterform {
+  padding: 1.5rem; }
+
+.newuser {
+  position: fixed;
+  right: 3%;
+  top: 60%; }
+
+/*# sourceMappingURL=enter.css.map */

@@ -1,0 +1,96 @@
+<!--<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, 	minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+		
+	</head>
+	<body >-->
+		<div ng-controller="plane">
+			
+		
+		<img src="img/pingmian/banner_c2.jpg" class="planebander"/>
+			<p class="num">本学院已有<span>{{number.num}}</span>套教程  总计<span>{{number.time}}</span>个小时</p>	
+				<div id="plane">
+			<div class="planefenlei">
+			<label>全部分类</label>
+			<span class="glyphicon glyphicon-chevron-down"></span>
+		</div>
+		<div class="planefenleicontent">
+			<span ng-repeat="item in datalist" ng-click="qiehuan($index)">{{item.data}}</span>
+		</div>
+		<div class="planedengji">
+			<label>全部等级</label>
+			<span class="glyphicon glyphicon-chevron-down"></span>
+		</div>
+		<div class="planedengjicontent">
+			<span ng-repeat="item in dengjilist"ng-click="qiehuan2($index)">{{item.title}}</span>
+		</div>
+		</div>
+		<div class="planecontent">
+					<div class="planeweekcontent" ng-repeat="i in weeklist">
+						 <a href="#Curriculum">
+						 <img src="{{i[0].img}}" alt="" />
+						  <p>{{i[0].text}}</p>
+						  <ul>
+						  	<li class="planeweekleft">{{i[0].text1}}</li>
+						  	<li class="planeweekright">{{i[0].text2}}</li>
+						  </ul></a>
+					</div>
+									
+		</div>
+		<div class="planepersontext">
+					<p class="planepersontitle">我们都在勤学网<span></span><a href="javascript:;" class="huanyizu">换一组</a></p>
+					<div class="planepersoncontent">
+						<img src="img/pingmian/thankpic_big_215.jpg" />
+						<p><span>土豆泥：</span>在学校学的是美术，由于是传统美术不会在计算机中运用，毕业后想过去设计公司或者装修公司学习，... [更多]</p>
+					</div>
+					<div class="planepersoncontent">
+						<img src="img/pingmian/thankpic_big_240.jpg" />
+						<p><span>niheniha：</span>我刚刚毕业进入工作岗位，但是总觉得自己在工作的时候会出现力不从心的情况，也许是因为基础知识... [更多]</p>
+					</div>
+					<div class="planepersoncontent">
+						<img src="img/pingmian/thankpic_big_248.jpg" />
+						<p><span>铝热剂罐头： </span>很高兴能有机会认识勤学网这个平台，初中时候的梦想是想成为一名游戏解说，一个特别的游戏解说，... [更多]</p>
+					</div>
+					<div class="planepersoncontent">
+						<img src="img/pingmian/thankpic_big_40.jpg" />
+						<p><span>cherryviic： </span>我是一名园林工作从业者，毕业院校是专科，专业知识不是特别好，现在工作了，一没文凭二没技术，... [更多]</p>
+					</div>
+			</div>
+			<div class="planeicontext">
+					<p class="planeicontitle">正在勤奋学习中的同学<span></span></p>
+					<ul>
+						<li><img src="img/pingmian/u107086-middle.gif"/>beaugb2</li>
+						<li><img src="img/pingmian/u116807-middle.gif"/>加油宝贝</li>
+						<li><img src="img/pingmian/u138138-middle.gif"/>lkh48092</li>
+						<li><img src="img/pingmian/u147237-middle.gif"/>txy</li>
+					</ul>
+					<ul>
+						<li><img src="img/pingmian/u151776-middle.gif"/>lgr0201</li>
+						<li><img src="img/pingmian/u24202-middle.gif"/>halalei</li>
+						<li><img src="img/pingmian/u284258-middle.gif"/>桂雏星</li>
+						<li><img src="img/pingmian/u87119-middle.gif"/>橘子佳啊</li>
+					</ul>
+					<ul>
+						<li><img src="img/pingmian/u147237-middle.gif"/>l3575118</li>
+						<li><img src="img/pingmian/u107086-middle.gif"/>sunkai24</li>
+						<li><img src="img/pingmian/u147237-middle.gif"/>我梦非凡</li>
+						<li><img src="img/pingmian/u151776-middle.gif"/>丿、寂寞</li>
+					</ul>
+			</div>
+			</div>
+		<!--<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/angular-1.4.6.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>-->

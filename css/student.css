@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.studentbander {
+  width: 100%;
+  height: 8rem; }
+
+.studenttext {
+  padding: 1rem; }
+  .studenttext > img {
+    width: 100%; }
+  .studenttext > p {
+    font-size: 1.6rem; }
+    .studenttext > p > span {
+      color: #72AB04; }
+
+/*# sourceMappingURL=student.css.map */

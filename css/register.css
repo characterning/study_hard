@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.registerform {
+  padding: 1.5rem;
+  position: relative; }
+  .registerform .yanzhengtu {
+    float: right;
+    width: 70%;
+    height: 4rem; }
+    .registerform .yanzhengtu > img {
+      width: 50%;
+      height: 3rem;
+      margin: .5rem; }
+    .registerform .yanzhengtu > span {
+      text-decoration: underline;
+      color: #007AFF;
+      font-size: 12px; }
+
+/*# sourceMappingURL=register.css.map */
